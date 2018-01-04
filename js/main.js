@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	var d = new Date();
+    var year = d.getFullYear();
 
 
 	$("#portfolio-contant-active").mixItUp();
@@ -10,8 +12,7 @@ $(document).ready(function(){
 	    autoPlay: 3000,
 	});
 
-
-
+	$("#js-date").html(year);
 
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
