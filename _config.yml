@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Kevin Klopp
-subtitle: "IT is what I do."
+title: Impervious Solutions
+subtitle: "Self Defence for the Digital Enterprise"
 url: "http://hampton1122.github.io/kevin-klopp" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/kevin-klopp"

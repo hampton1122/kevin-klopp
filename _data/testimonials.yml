@@ -1,16 +1,6 @@
-- name: Rose Ray
-  title: CEO-Some Company
-  testimonial: "This company created an e-commerce site with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray sr.
-  title: CEO-Some Company
-  testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray jr.
-  title: CEO-Some Company
-  testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray III
-  title: CEO-Some Company
-  testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
-  image: img/item-img1.jpg
+- name: "SVP of Professional Services"
+  title: "SilverSky"
+  testimonial: "We have partnered with Impervious Solutions on many occasions in order to provide premium Penetration Testing services to our clients. Impervious has always been the ideal partner to work with. We plan to utilize the Impervious' team on many more engagements due to their responsiveness, attention to detail, high level of technical knowledge and their overall advanced approach to the art of penetration testing. This combination is very hard to find in a partner. "
+- name: "Peter Vogensen"
+  title: "DDSoftware"
+  testimonial: "Thanks to Impervious [Solutions] services, we now have defenses against the most current threats, without any IT intervention. This is precisely the robust and economical security we wanted. It's clear that Impervious Solutions protection offers a very strong return on investment."
