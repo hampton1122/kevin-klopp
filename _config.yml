@@ -14,13 +14,16 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: Kevin Klopp
+subtitle: "IT is what I do."
 url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+
+production_url : http://hampton1122.github.io/kevin-klopp
+BASE_PATH : http://hampton1122.github.io/kevin-klopp
 
 # Build settings
 markdown: kramdown
