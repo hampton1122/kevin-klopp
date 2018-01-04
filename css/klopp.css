@@ -270,7 +270,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	content Start
 --*/
 #testimonial {
-  padding: 100px 0;
+  padding: 150px 0;
+  margin-bottom: 15px !important;
 }
 #testimonial .block h2 {
   line-height: 27px;
@@ -297,32 +298,32 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial .counter-box li span {
   color: #555;
 }
-#testimonial .testimonial-carousel {
+#testimonial .testimonial-carousel, #testimonial {
   text-align: center;
-  width: 75%;
-  border: 1px solid #DEDEDE;
+  width: 100%;
+  /* border: 1px solid #DEDEDE; */
   padding: 24px;
   margin: 0 auto;
 }
-#testimonial .testimonial-carousel img {
+#testimonial .testimonial-carousel img, #testimonial img {
   padding-bottom: 38px;
 }
-#testimonial .testimonial-carousel p {
+#testimonial .testimonial-carousel p, #testimonial p {
   line-height: 28px;
   font-weight: 300;
   padding-bottom: 20px;
 }
-#testimonial .testimonial-carousel .user img {
+#testimonial .testimonial-carousel .user img, #testimonial .user img {
   padding-bottom: 0px;
   border-radius: 500px;
 }
-#testimonial .testimonial-carousel .user p {
+#testimonial .testimonial-carousel .user p, #testimonial .user p {
   padding-bottom: 0;
   font-size: 12px;
   line-height: 20px;
   color: #353241;
 }
-#testimonial .testimonial-carousel .user p span {
+#testimonial .testimonial-carousel .user p span, #testimonial .user p span {
   display: block;
   color: #353241;
   font-weight: 600;

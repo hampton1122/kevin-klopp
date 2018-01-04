@@ -146,12 +146,11 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
   <div class="container">
     <div class="row">
       <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>Spicy jalapeno bacon ipsum dolor amet qui sed ball tip spare ribs, filet mignon kevin ea. Meatball commodo sirloin lorem leberkas qui. Et shoulder ut pancetta tail, occaecat ad bacon chuck ground round cupidatat irure magna biltong.</p>
+        <h2>What people are saying about us</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         {% if site.data.funfacts.size > 0 %}
         <div class="block">
           {% for ff in site.data.funfacts %}
@@ -167,8 +166,8 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
           </ul>
         </div>
         {% endif %}
-      </div>
-      <div class="col-md-6">
+      </div> -->
+      <div class="col-md-12">
         {% if site.data.testimonials.size > 0 %}
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
@@ -182,6 +181,9 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
             </div>
             {% endfor %}
           </div>
+        </div>
+        <div class="row">
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/about" >REAM MORE</a>
         </div>
         {% endif %}
       </div>
