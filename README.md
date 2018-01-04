@@ -9,3 +9,4 @@ To start your project, [fork this respository](https://github.com/luminousrubyis
 ##Local Install and Deployment
 * bundle install
 * bundle exec jekyll serve --watch
+* ```https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/```
