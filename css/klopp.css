@@ -33,6 +33,10 @@ h3 {
   font-size: 28px;
   font-weight: 300;
 }
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
 p {
   font-size: 15px;
   line-height: 28px;
@@ -184,6 +188,17 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
+}
+
+.services .row{
+  margin-bottom: 25px;
+}
+.services .row p {
+  line-height: 16px;
+}
+.services .row ul {
+  list-style: disc;
+  margin-left: 35px;
 }
 /*--
 	call-to-action Start
