@@ -189,9 +189,12 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
-
 .services .row{
   margin-bottom: 25px;
+}
+.services .services-item .icon {
+  font-size: 48px;
+  text-align: center;
 }
 .services .row p {
   line-height: 16px;

@@ -33,9 +33,16 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
                   {% if site.data.services.size > 0 %}
                       {% for s in site.data.services %}
                       <div class="row">
-                          <div class="col-md-12 col-sm-12">
-                            <h4>{{ s.title }}</h3>
-                            <p>{{ s.description}}</p>
+                          <div class="col-md-12 col-sm-12 services-item">
+                            <div class="row">
+                                <div class="col-md-1 col-sm-1 icon">
+                                    <i class="{{s.icon}}"></i>
+                                </div>
+                                <div class="col-md-11 col-sm-11">
+                                    <h4>{{ s.title }}</h3>
+                                    <p>{{ s.description}}</p>
+                                </div>
+                            </div>
                           </div>
                       </div>
                       {% endfor %}
