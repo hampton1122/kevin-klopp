@@ -183,10 +183,12 @@ px      68    160    252    */
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 28px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 22px;
   }
   /*--
 	wrapper Start 
@@ -244,6 +246,10 @@ px      68    160    252    */
 --*/
   #features .features-img {
     text-align: center;
+  }
+  #feature {
+    background: none !important;
+    background-color: #e0e0e0 !important;
   }
   /*---------------------------------------------
 					Index Close 
