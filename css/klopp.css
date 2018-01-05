@@ -376,6 +376,14 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider-work Start
 --*/
+#services-header{
+  background: url("../img/services-background.png") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
 #global-header {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
@@ -384,7 +392,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   background-attachment: fixed;
 }
-#global-header:before {
+#global-header:before, #services-header:before {
   content: "";
   position: absolute;
   left: 0;
@@ -396,13 +404,13 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
   opacity: 0.8;
 }
-#global-header .block {
+#global-header .block, #services-header .block {
   color: #E3E3E4;
   margin: 0 auto;
   padding-left: 90px;
   text-align: center;
 }
-#global-header .block h1 {
+#global-header .block h1,#services-header .block h1 {
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
@@ -410,7 +418,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 0;
   text-transform: capitalize;
 }
-#global-header .block p {
+#global-header .block p, #services-header .block p  {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
