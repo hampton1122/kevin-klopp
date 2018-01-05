@@ -1,0 +1,63 @@
+---
+layout: page
+title: Certifications
+permalink: /certifications
+summary: This is a custom page description about IT services
+tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessments, ect
+---
+
+<!-- Slider Start -->
+<section id="services-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <h1>Governance and Compliance Services</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="block">&nbsp;</div>
+        </div>
+        <div class="col-md-12 col-sm-12">
+                <div class="block services">
+                  {% if site.data.certifications.size > 0 %}
+                      {% for c in site.data.certifications %}
+                      <div class="row">
+                          <div class="col-md-12 col-sm-12 services-item">
+                            <div class="row">
+                                <div class="col-md-1 col-sm-1 icon">
+                                    <i class="{{s.icon}}"></i>
+                                </div>
+                                <div class="col-md-11 col-sm-11">
+                                    <h4>{{ c.name }}</h3>
+                                    <p>{{ c.description}}</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      {% endfor %}
+                  {% endif %}
+                </div>
+              </div>
+    </div>
+</div>
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>How can we help?</h2>
+          <p>We're anxious to help secure your network. Contact us to learn more about how we can help.</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
