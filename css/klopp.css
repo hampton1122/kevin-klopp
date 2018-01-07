@@ -98,6 +98,63 @@ font header .navbar-default .navbar-nav li a:hover {
 					Index Start
 -----------------------------------------------*/
 /*--
+	Video Header
+--*/
+header.heropanel__video {
+  font-family:sans-serif;
+  min-height:500px;
+  background:none !important;
+}
+
+@keyframes gm-slidein {
+  from {
+      -webkit-transform:translate3d(0,-100%,0);
+      opacity:0;
+      transform:translate3d(0,-100%,0);
+  }
+
+  to {
+      -webkit-transform:none;
+      opacity:1;
+      transform:none;
+  }
+}
+
+.heropanel__content {
+  -moz-animation:gm-slidein 3s 1;
+  -ms-animation:gm-slidein 3s 1;
+  -o-animation:gm-slidein 3s 1;
+  -webkit-animation:gm-slidein 3s 1;
+  animation:gm-slidein 3s 1;
+  margin:0 auto;
+  max-width:50%;
+  padding:4em 0 2em;
+  text-align:center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.heropanel__content h1 {
+  margin:0 0 .5em;
+  text-transform:uppercase;
+  color: #ffffff;
+}
+
+
+.heropanel__content a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.heropanel__content i {
+  font-size: 35px;
+}
+
+.heropanel__content p {
+  color:#fff;
+  margin:0;
+  text-transform:uppercase;
+}
+/*--
 	Slider Start
 --*/
 #slider {
@@ -120,7 +177,15 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
-#slider .block {
+#video-container .block  {
+  color: #E3E3E4;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#slider .block  {
   color: #E3E3E4;
 }
 #slider .block h1 {
