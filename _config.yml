@@ -19,8 +19,9 @@ subtitle: "Self Defence for the Digital Enterprise"
 url: "http://hampton1122.github.io/kevin-klopp" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/kevin-klopp"
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+cover: "img/cover.png"
+logo: "img/logo.png"
+ico: "img/ouroboros-favicon.png"
 
 # Build settings
 markdown: kramdown
