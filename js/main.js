@@ -27,6 +27,15 @@ $(document).ready(function(){
 		itemsDesktop : [1199,5],
 		itemsDesktopSmall : [979,5],
 	});
+
+	//header scroll button
+	$("#header_down_button").click(function(e) {
+		e.preventDefault();
+		var element = $(this).attr("href");
+		$('html, body').animate({
+			scrollTop: $(element).offset().top
+		}, 1000);
+	});
 	
 	//scroll to top
 	$(window).scroll(function() {
@@ -36,7 +45,7 @@ $(document).ready(function(){
 			$('#return-to-top').fadeOut(200);   // Else fade out the arrow
 		}
 	});
-	
+
 	$('#return-to-top').click(function() {      // When arrow is clicked
 		$('body,html').animate({
 			scrollTop : 0                       // Scroll to top of body
