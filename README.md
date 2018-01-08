@@ -10,3 +10,6 @@ To start your project, [fork this respository](https://github.com/luminousrubyis
 * bundle install
 * bundle exec jekyll serve --watch
 * ```https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/```
+
+##Send email with Google
+* https://github.com/dwyl/html-form-send-email-via-google-script-without-server
