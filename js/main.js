@@ -34,7 +34,7 @@ $(document).ready(function(){
 		var element = $(this).attr("href");
 		$('html, body').animate({
 			scrollTop: $(element).offset().top
-		}, 1000);
+		}, 500);
 	});
 	
 	//scroll to top
