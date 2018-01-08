@@ -24,7 +24,7 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
         <div class="row">
           <div class="col-md-12">
             <div class="post-area">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><i class="ion-ios-paper-outline"></i> {{ post.title }}</a>
               <p class="post-date">{{ post.date | date_to_long_string }}</p>
               <p>
                 {{ post.content | strip_html | truncatewords: 50 }}
