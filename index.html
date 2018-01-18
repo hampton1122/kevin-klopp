@@ -7,7 +7,11 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
 ---
 
 <!-- Slider Start -->
-<header class="heropanel__video" data-vide-bg="mp4: video/cyber-crime-money-thief-online_bslypv_lu__WL.mp4, poster: //images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" data-vide-options="posterType: png, loop: true, muted: true, position: 50% 50%">
+{% assign min = 0 %}
+{% assign max = site.data.videos.size %}
+{% assign diff = max | minus: min %}
+{% assign randomNumber = site.time | date: "%N" | modulo: diff | plus: min %}
+<header class="heropanel__video" data-vide-bg="mp4: {{ site.data.videos[randomNumber].url }}, poster: //images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" data-vide-options="posterType: png, loop: true, muted: true, position: 50% 50%">
   <div class="heropanel__content">
        <h1>Vulnerability Management Services</h1>
        <p>Cybersecurity isn’t just important for big corporations. All companies are at risk for attacks–especially small business, since hackers may assume they’re not as careful.</p>
