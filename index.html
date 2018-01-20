@@ -11,7 +11,7 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
 {% assign max = site.data.videos.size %}
 {% assign diff = max | minus: min %}
 {% assign randomNumber = site.time | date: "%N" | modulo: diff | plus: min %}
-<header class="heropanel__video" data-vide-bg="mp4: {{ site.data.videos[randomNumber].url }}, poster: //images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" data-vide-options="posterType: png, loop: true, muted: true, position: 50% 50%">
+<header class="heropanel__video" id="{{ site.data.videos.size }}" data-vide-bg="mp4: {{ site.data.videos[randomNumber].url }}, poster: //images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" data-vide-options="posterType: png, loop: true, muted: true, position: 50% 50%">
   <div class="heropanel__content">
        <h1>{{ site.data.videos[randomNumber].title }}</h1>
        <p>{{ site.data.videos[randomNumber].content }}</p>
