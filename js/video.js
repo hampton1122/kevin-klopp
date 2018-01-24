@@ -25,6 +25,4 @@ $(window).load(function(){
         bgColor: 'transparent', // Allow custom background-color for Vide div,
         className: '' // Add custom CSS class to Vide div
       });
-
-    //$('#video').attr('data-vide-bg','mp4: video/'+videoArray[randomNumber]+', poster: img/shutterstock-cybersecurity-awards-2014.jpg" data-vide-options="posterType: jpg, loop: true, muted: true, position: 50% 50%');
 });
