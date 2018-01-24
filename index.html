@@ -7,14 +7,10 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
 ---
 
 <!-- Slider Start -->
-{% assign min = 0 %}
-{% assign max = site.data.videos.size %}
-{% assign diff = max | minus: min %}
-{% assign randomNumber = site.time | date: "%N" | modulo: diff | plus: min %}
-<header class="heropanel__video" id="{{ site.data.videos.size }}" data-vide-bg="mp4: {{ site.data.videos[randomNumber].url }}, poster: img/shutterstock-cybersecurity-awards-2014.jpg" data-vide-options="posterType: png, loop: true, muted: true, position: 50% 50%">
+<header class="heropanel__video" id="video">
   <div class="heropanel__content">
-       <h1>{{ site.data.videos[randomNumber].title }}</h1>
-       <p>{{ site.data.videos[randomNumber].content }}</p>
+       <h1>Vulnerability Management Services</h1>
+       <p>Cybersecurity isn’t just important for big corporations. All companies are at risk for attacks–especially small business, since hackers may assume they’re not as careful.</p>
        <p><a href="#intro" id="header_down_button"><i class="ion-chevron-down"></i></a></p>
   </div>
 </header>
