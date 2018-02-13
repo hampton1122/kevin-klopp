@@ -341,6 +341,11 @@ header.heropanel__video {
   backface-visibility: hidden;
   padding: 100px 0;
 }
+
+#about-feature .section-title {
+  margin-bottom: 0;
+}
+
 #feature {
   background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
