@@ -259,6 +259,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-admin
+  rack-protection
 
 BUNDLED WITH
    1.16.1
