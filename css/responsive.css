@@ -190,6 +190,15 @@ px      68    160    252    */
     font-size: 14px;
     line-height: 22px;
   }
+  .opacity {
+    opacity:unset;
+    padding: 15px;
+    background: transparent;
+  }
+
+  .heropanel__content {
+    max-width: 100% !important;
+  }
   /*--
 	wrapper Start 
 --*/
