@@ -37,8 +37,12 @@ descriptions:
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+
 jekyll_admin:
   hidden_links:
-    - pages
     - staticfiles
     - configuration

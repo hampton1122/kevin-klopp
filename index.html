@@ -1,17 +1,22 @@
----
-layout: page
-title: Impervious Solutions
-permalink: /
-summary: This is a custom page description about IT services
-tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessments, ect
+--- 
+layout: page 
+title: Impervious Solutions 
+permalink: / 
+summary: This is a custom page description about IT services 
+tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessments, ect 
 ---
 
 <!-- Slider Start -->
 <header class="heropanel__video" id="video">
   <div class="heropanel__content">
-       <h1>Vulnerability Management Services</h1>
-       <p>Cybersecurity isn’t just important for big corporations. All companies are at risk for attacks–especially small business, since hackers may assume they’re not as careful.</p>
-       <p><a href="#intro" id="header_down_button"><i class="ion-chevron-down"></i></a></p>
+    <h1>Vulnerability Management Services</h1>
+    <p>Cybersecurity isn't just important for big corporations. All companies are at risk for attacks–especially small business,
+      since hackers may assume they're not as careful.</p>
+    <p>
+      <a href="#intro" id="header_down_button">
+        <i class="ion-chevron-down"></i>
+      </a>
+    </p>
   </div>
 </header>
 <!-- Wrapper Start -->
@@ -21,10 +26,14 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>About Us</h2>
-            <p>Impervious Solutions' Global Security Solutions address all aspects of the enterprise to ensure total protection. From facilities and systems to people and information, delivering reliable and cost-effective protection to improve the security of your environment.</p>
+            <h2>Concerned about your company's cyber security? Impervious Solutions is here to protect.</h2>
+            <p>Impervious Solutions provides security products and services that address every aspect of your business to ensure
+              total protection. From facilities and systems to people and information, we deliver reliable and cost-effective
+              protection to improve your cyber security.
+            </p>
           </div>
-          <p>As a part of Impervious Solutions comprehensive portfolio of Security Solutions, our Vulnerability Assessment Services are an important first step to realizing the benefits of a comprehensive information risk management program. Our assessment services provide a foundation for improved risk-based decision making in order to achieve compliance and prioritize investments to better protect your digital enterprise.</p>
+          <p>Since 2002, Impervious Solutions has delivered consistent, reliable information security solutions globally. We're
+            committed to helping our clients protect valuable assets, minimize and manage risk and maximize business results.</p>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
@@ -52,19 +61,26 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
   </section> -->
 
 <section id="feature">
-<div class="container">
-  <div class="row">
-    <div class="col-md-12 opacity">
-      <div>
-        <h2>WHY USE OUR VULNERABILITY ASSESSMENT SERVICES?</h2>
-        <p>Organizations operate in a dynamic environment.They need to be able to protect vital assets and capitalize on investments as new threats and technologies emerge. It's important to choose a partner who understands enterprise security and risk management. Our comprehensive approach adds value to your business not only by reducing risks and potential costs of non-compliance and security breaches, but also by enabling improved efficiency and productivity through greater protection.</p>
-        <p>As a premier global provider of information security services to both commercial and government organizations, Impervious Solutions is fully aware of the challenges and issues that face today's highly sensitized business community. By partnering with Impervious Solutions, organizations can be confident that the focus on security will be business driven, end-to-end and based upon robust business and security processes and commercial best practice.</p>
-        <p>Our overarching objective is to provide you with the information security service and delivery framework that affords the most cost effective balance between performance and protection.</p>
-        <center><a href="{{ site.baseurl }}/about" class="btn btn-view-works">LEARN MORE</a></center>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 opacity">
+        <div>
+          <h2>WHY USE OUR VULNERABILITY ASSESSMENT SERVICES?</h2>
+          <p>Business and cyber environments are constantly changing. Companies need to be able to protect vital assets and
+            capitalize on investments as new threats and technologies emerge. It's important to choose a partner who understands
+            enterprise security and risk management. Our comprehensive approach adds value to your business not only by reducing
+            risks and potential costs of non-compliance to regulatory requirements and security breaches but also by enabling
+            improved efficiency and productivity through greater protection.</p>
+          <p>As a premier global provider of information security services to both commercial and government organizations,
+            Impervious Solutions is aware of the challenges and issues that face today's sensitized business community. By
+            partnering with Impervious Solutions, organizations can be confident that the focus on security will be business-driven,
+            end-to-end and based upon robust business and security processes and commercial best practice.</p>
+          <p>Our overarching objective is to provide you with the information security service and delivery framework that affords
+            the most cost effective balance between performance and protection.</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
 
 <!-- Service Start -->
@@ -73,41 +89,23 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
     <div class="row">
       <div class="section-title">
         <h2>SERVICES</h2>
-        <p>Our security experts combine proprietary technology and best-of-breed methodologies with cutting-edge toolsets to assess potential vulnerabilities across the enterprise.</p>
+        <p>Our security experts combine proprietary technology and best-of-breed methodologies with cutting-edge toolsets to
+          assess potential vulnerabilities across the enterprise.</p>
       </div>
     </div>
     <div class="row ">
+      {% for service in site.services limit:4 %}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <i class="icon ion-network"></i>
-          <h4>NETWORK AND INFRASTRUCTURE VULNERABILITY ASSESSMENTS </h4>
-          <p>Focuses on both internal and perimeter critical devices such as firewalls, routers, servers, databases and appliances</p>
+          <i class="icon {{ service.icon }}"></i>
+          <h4>{{ service.title }}</h4>
+          {{ service.content | strip_html | truncatewords: 50 }}
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-android-laptop"></i>
-          <h4>WEB APPLICATION VULNERABILITY ASSESSMENTS</h4>
-          <p>In depth manual and automated tests against the application's design, logic, and underlying web server. (includes thin &amp; thick client testing)</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-code"></i>
-          <h4>DEEP SOURCE CODE REVIEW FOR WEB APPLICATIONS</h4>
-          <p>A comprehensive web application security analysis of developers source code. This is ideal for in house developed web applications.</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-iphone"></i>
-          <h4>MOBILE SECURITY</h4>
-          <p>Impervious Solutions has created a thorough mobile testing methodology focusing on the Application Design Review, Threat Modeling, Comprehensive Mobile Application Security Assessments, Code Review and Forensic Analysis</p>
-        </div>
-      </div>
+      {%endfor%}
     </div>
     <div class="row">
-      <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/services" >FULL LIST OF SERVICES</a>
+      <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/services">FULL LIST OF SERVICES</a>
     </div>
   </div>
 </section>
@@ -119,7 +117,7 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
         <div class="block">
           <h2>Self Defence for the Digital Enterprise</h2>
           <p>Our Global Security Solutions address all aspects of your enterprise to ensure total protection.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Get in touch</a>
+          <a class="btn btn-default btn-call-to-action" href="#">Get in touch</a>
         </div>
       </div>
     </div>
@@ -157,17 +155,18 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
           <div id="testimonial-slider" class="owl-carousel">
             {% for tm in site.data.testimonials %}
             <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
+              <img src="img/cotation.png" alt="IMG">
+              <p>{{ tm.testimonial }}</p>
+              <div class="user">
+                <p>
+                  <span>{{ tm.name }}</span> {{ tm.title }}</p>
+              </div>
             </div>
             {% endfor %}
           </div>
         </div>
         <div class="row">
-          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/about" >READ MORE</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/about">READ MORE</a>
         </div>
         {% endif %}
       </div>

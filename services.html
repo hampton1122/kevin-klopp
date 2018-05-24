@@ -1,67 +1,37 @@
 ---
-layout: page
+layout: default
 title: Services
-permalink: /services
+permalink: /services/
 summary: This is a custom page description about IT services
 tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessments, ect
 ---
-
 <!-- Slider Start -->
-<section id="services-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="block">
-            <h1>Services</h1>
-            <p>To meet your unique business requirements, our security experts combine proprietary technology and best-of-breed methodologies with cutting-edge toolsets to assess potential vulnerabilities across the enterprise. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <div class="block">
-                <h2>Our Services</h2>
-                <p>To meet your unique business requirements, our security experts combine proprietary technology and best-of-breed methodologies with cutting-edge toolsets to assess potential vulnerabilities across the enterprise. Assessments may be conducted individually as necessary, or via a consistent, predetermined schedule as a subscription service, to ensure your business is both agile and secure throughout the year. Whether through internal or external assessments, Impervious Solutions performs a combination of the following services:</p>
-            </div>
-        </div>
-        <div class="col-md-12 col-sm-12">
-                <div class="block services">
-                  {% if site.data.services.size > 0 %}
-                      {% for s in site.data.services %}
-                      <div class="row">
-                          <div class="col-md-12 col-sm-12 services-item">
-                            <div class="row">
-                                <div class="col-md-1 col-sm-1 icon">
-                                    <i class="{{s.icon}}"></i>
-                                </div>
-                                <div class="col-md-11 col-sm-11">
-                                    <h4>{{ s.title }}</h3>
-                                    <p>{{ s.description}}</p>
-                                </div>
-                            </div>
-                          </div>
-                      </div>
-                      {% endfor %}
-                  {% endif %}
-                </div>
-              </div>
-    </div>
-</div>
-<!-- Call to action Start -->
-<section id="call-to-action">
+<section id="global-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>How can we help?</h2>
-          <p>We're anxious to help secure your network. Contact us to learn more about how we can help.</p>
-          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact Us</a>
+          <h1>Get the latest on what we're doing</h1>
+          <p>Catch up with us, anytime and anywhere</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+{% for service in site.services %}
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-area">
+          <a href="{{ service.url | prepend: site.baseurl }}" class="bold">
+            <i class="{{ service.icon }}"></i> {{ service.title }}</a>
+          <p>
+            {{ service.content | strip_html | truncatewords: 50 }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}

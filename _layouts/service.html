@@ -1,0 +1,33 @@
+---
+layout: page
+---
+
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <div class="block">
+              <h1>{{ page.title }}</h1>
+              <hr />
+              <p>{{ content }}</p>
+            </div>
+          </div><!-- .col-md-8 close -->
+          <div class="col-md-4 col-sm-12">
+              <h4>Other Services</h4>
+              {% for service in site.services %}
+              <div class="row">
+                  <div class="col-md-12" style="padding: 10px 0 10px 0">
+                  <a href="{{ service.url | prepend: site.baseurl }}" class="bold"><i class="{{service.icon}}"></i> {{ service.title }}</a>
+                  </div>
+              </div>
+              {% endfor %}
+          </div><!-- .col-md-4 close -->
+      </div>
+    </div>
+  </section>
+</div>
+<p class="center-text" style="padding: 30px;">
+  <a href="{{ site.baseurl }}/services"><i class="ion-backspace"></i> Back to Services</a>
+</p>
