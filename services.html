@@ -1,18 +1,18 @@
----
-layout: default
-title: Services
-permalink: /services/
-summary: This is a custom page description about IT services
-tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessments, ect
+--- 
+layout: default 
+title: Services 
+permalink: /services/ 
+summary: This is a custom page description about IT services 
+tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessments, ect 
 ---
 <!-- Slider Start -->
-<section id="global-header">
+<section id="services-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Get the latest on what we're doing</h1>
-          <p>Catch up with us, anytime and anywhere</p>
+          <h1>Services</h1>
+          <p>To meet your unique business requirements, our security experts combine proprietary technology and best-of-breed methodologies with cutting-edge toolsets to assess potential vulnerabilities across the enterprise.</p>
         </div>
       </div>
     </div>
@@ -24,11 +24,12 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
     <div class="row">
       <div class="col-md-12">
         <div class="post-area">
-          <a href="{{ service.url | prepend: site.baseurl }}" class="bold">
-            <i class="{{ service.icon }}"></i> {{ service.title }}</a>
+          <h3><a href="{{ service.url | prepend: site.baseurl }}" class="bold">
+            <i class="{{ service.icon }}"></i> {{ service.title }}</a></h3>
           <p>
             {{ service.content | strip_html | truncatewords: 50 }}
           </p>
+          <a class="btn btn-default" href="{{ service.url | prepend: site.baseurl }}">READ MORE</a>
         </div>
       </div>
     </div>

@@ -4,6 +4,11 @@
  *
  */
 
+ li {
+  color: #7b7b7b;
+  margin-left: 15px;
+ }
+
  .italic {
    font-style: italic;
  }
@@ -25,10 +30,41 @@
 }
 
 .post-area a:link, .post-area a:visited {
-  font-size: 30px;
   color: #333;
 }
 
 .post-area a:hover {
   color: #0D0017;
+}
+
+.divider {
+  height: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 25px;
+}
+
+.card i {
+  font-size: 32px;
+}
+
+.details-link {
+  position: absolute;
+  bottom: 10px;
+  left: 33%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
 }

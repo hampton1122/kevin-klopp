@@ -96,14 +96,16 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
     <div class="row ">
       {% for service in site.services limit:4 %}
       <div class="col-sm-6 col-md-3">
-        <div class="service-item">
+        <div class="card">
           <i class="icon {{ service.icon }}"></i>
           <h4>{{ service.title }}</h4>
-          {{ service.content | strip_html | truncatewords: 50 }}
+          <div>{{ service.content | strip_html | truncatewords: 50 }}</div>
+          <div class="details-link"><a href="{{ service.url | prepend: site.baseurl }}">FULL DETAILS</a></div>
         </div>
       </div>
       {%endfor%}
     </div>
+    <div class="row"><div class="col-md-12 divider">&nbsp;</div></div>
     <div class="row">
       <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/services">FULL LIST OF SERVICES</a>
     </div>
