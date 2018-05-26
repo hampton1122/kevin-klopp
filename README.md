@@ -19,6 +19,8 @@ To start your project, [fork this respository](https://github.com/luminousrubyis
 * bundle exec jekyll serve --watch
 * http://localhost:4000/admin
 
+* icons for services are ion-icons ```https://ionicons.com/```
+
 ##Send email with Google
 
 * https://github.com/dwyl/html-form-send-email-via-google-script-without-server
