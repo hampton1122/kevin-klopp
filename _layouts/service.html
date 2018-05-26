@@ -28,9 +28,9 @@ layout: page
           <div class="col-md-4 col-sm-12">
               <h4>Other Services</h4>
               {% for service in site.services %}
-              <div class="row">
-                  <div class="col-md-12" style="padding: 10px 0 10px 0">
-                  <a href="{{ service.url | prepend: site.baseurl }}" class="bold"><i class="{{service.icon}}"></i> {{ service.title }}</a>
+              <div class="row service-side-nav-list">
+                  <div class="col-md-12">
+                    <a href="{{ service.url | prepend: site.baseurl }}" class="bold"><i class="{{service.icon}}"></i> {{ service.title }}</a>
                   </div>
               </div>
               {% endfor %}
