@@ -15,6 +15,9 @@ layout: page
               </div>
               <hr />
               <p>{{ content }}</p>
+              {% if page.author_link != null %}
+              <p><a class="btn btn-default btn-call-to-action" href="{{page.author_link}}" target="_blank">Read the entire article</a></p>
+              {% endif %}
             </div>
           </div><!-- .col-md-8 close -->
           <div class="col-md-4 col-sm-12">

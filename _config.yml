@@ -21,7 +21,7 @@ url: "http://hampton1122.github.io/kevin-klopp" # the base hostname & protocol f
 baseurl: "/kevin-klopp"
 cover: "img/cover.png"
 logo: "img/logo.png"
-ico: "img/ouroboros-favicon.png"
+ico: "favicon.ico"
 
 # Build settings
 markdown: kramdown
