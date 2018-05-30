@@ -1,7 +1,8 @@
 ---
-icon: ion-iphone
 title: Mobile Security
+icon: ion-iphone
 layout: service
+primary: true
 ---
 
 Mobile apps face growing security risks with new vulnerabilities found every day. To make sure your customers and clients feel secure giving you their information, testing is crucial.

@@ -94,7 +94,8 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
       </div>
     </div>
     <div class="row ">
-      {% for service in site.services limit:4 %}
+      {% for service in site.services %}
+      {% if service.primary == true %}
       <div class="col-sm-6 col-md-3">
         <div class="card">
           <i class="icon {{ service.icon }}"></i>
@@ -103,6 +104,7 @@ tags: Forensic Analysis, Risk Analysis, Web Application/Infrastructure Assessmen
           <div class="details-link"><a href="{{ service.url | prepend: site.baseurl }}">FULL DETAILS</a></div>
         </div>
       </div>
+      {%endif%}
       {%endfor%}
     </div>
     <div class="row"><div class="col-md-12 divider">&nbsp;</div></div>
