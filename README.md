@@ -23,8 +23,7 @@
 * In your terminal run ```sh deploy.sh```
 * When asked, enter what you changed as a commit description
 
-* icons for services are ion-icons ```https://ionicons.com/```
-
-## Send email with Google
+## Miscellaneous Notes
 
 * https://github.com/dwyl/html-form-send-email-via-google-script-without-server
+* icons for services are ion-icons ```https://ionicons.com/```
