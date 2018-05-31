@@ -1,3 +1,16 @@
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  /*---------------------------------------------
+					Index Start 
+-----------------------------------------------*/
+  .nav li {
+    margin: -5px;
+  }
+  .navbar-right {
+    float: right !important;
+    margin-top: 0;
+    margin-left: -25px;
+  }
+
 /*		Default Layout: 992px. 
 		Gutters: 24px.
 		Outer margins: 48px.
@@ -16,6 +29,14 @@ px      68    160    252    344    436    528    620    712    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+  .nav li {
+    margin: -5px;
+  }
+  .navbar-right {
+    float: left !important;
+    margin-top: 15px;
+    margin-left: -25px;
+  }
   /*--
 	wrapper Start 
 --*/
@@ -214,9 +235,26 @@ px      68    160    252    */
     padding: 15px;
     background: transparent;
   }
+  #intro {
+    padding: 0;
+  }
+
+  header.heropanel__video {
+    max-width: 100% !important;
+    min-height: 0 !important;
+    background-size: cover; 
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 50% 50%; 
+    background: url("../img/shutterstock-cybersecurity-awards-2014.jpg") !important;
+  }
 
   .heropanel__content {
-    max-width: 100% !important;
+    max-width: 95% !important;
+  }
+
+  .heropanel__content p {
+    line-height: 18px;
   }
   /*--
 	wrapper Start 

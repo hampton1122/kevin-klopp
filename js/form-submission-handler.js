@@ -102,6 +102,9 @@ function validEmail(email) { // see:
   document.addEventListener('DOMContentLoaded', ready, false);
  
   function ready() {
-    var form = document.getElementById('gform');
-    form.addEventListener("submit", handleFormSubmit, false);
+    if($('#gform').length) {
+      var form = document.getElementById('gform');
+      form.addEventListener("submit", handleFormSubmit, false);
+    }
+    
   }
