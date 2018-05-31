@@ -1,12 +1,7 @@
-# _Airspace_ for Jekyll
+# Custom Jekyll Website for Impervious Solutions
 
-![screenshot](screenshots/home.png 'Description goes here')
+![screenshot](screenshots/home.png 'Custom Jeckyll website for Impervious Solutions')
 
-This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license.
-
-## Usage
-
-To start your project, [fork this respository](https://github.com/luminousrubyist/airspace-jekyll/fork), put in your content, and go!
 
 ##Local Install and Deployment
 
@@ -14,10 +9,15 @@ To start your project, [fork this respository](https://github.com/luminousrubyis
 * bundle exec jekyll serve --watch
 * `https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/`
 
-##Local Admin
+## Local Admin and local testing
 
 * bundle exec jekyll serve --watch
 * http://localhost:4000/admin
+
+## Deploy
+
+* In your terminal run ```sh deploy.sh```
+* When asked, enter what you changed as a commit description
 
 * icons for services are ion-icons ```https://ionicons.com/```
 
