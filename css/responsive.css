@@ -10,6 +10,7 @@
     margin-top: 0;
     margin-left: -25px;
   }
+}
 
 /*		Default Layout: 992px. 
 		Gutters: 24px.
@@ -183,6 +184,9 @@ px      68    160    252    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+  .navbar-brand {
+    padding: 0;
+  }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
