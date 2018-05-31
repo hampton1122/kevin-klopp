@@ -3,7 +3,7 @@
 ![screenshot](screenshots/home.png 'Custom Jeckyll website for Impervious Solutions')
 
 
-##Local Install and Deployment
+## Local Install and Deployment
 
 * bundle install
 * bundle exec jekyll serve --watch
