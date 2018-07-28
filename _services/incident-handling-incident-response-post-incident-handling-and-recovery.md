@@ -1,5 +1,5 @@
 ---
-title: Incident Handing/Incident Response (Post-Incident Handling and Recovery)
+title: Incident Handling/Incident Response (Post-Incident Handling and Recovery)
 icon: ion-android-warning
 layout: service
 ---
