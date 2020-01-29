@@ -1,4 +1,4 @@
-# Custom Jekyll Website for Impervious Solutions
+# Custom Jekyll Website for Kevin Klopp
 
 ![screenshot](screenshots/home.png 'Custom Jeckyll website for Impervious Solutions')
 
